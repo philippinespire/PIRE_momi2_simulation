@@ -1,0 +1,642 @@
+INFO:momi.data.sfs:Reading json...
+INFO:momi.data.sfs:Finished reading json...
+INFO:momi.data.sfs:Constructing configs...
+INFO:momi.data.sfs:8246 unique configs detected
+INFO:momi.data.sfs:Converted to numpy array...
+INFO:momi.data.sfs:Finished constructing configs
+INFO:momi.data.sfs:Constructing SFS...
+INFO:momi.data.sfs:Finished constructing SFS
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.0031205728663231615, n_constant: 9992.726443317475}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.003110846587514749, n_constant: 9886.915208119708}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.0031108463119727046, n_constant: 9886.351048925442}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.0031343919875764514, n_alb: 10055.421114359306, n_bot: 10001.963931265958, t_bot: 45.297515940178556}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.00311103420278455, n_alb: 9924.201665659122, n_bot: 9281.868641928211, t_bot: 45.29732879810706}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.003109205571538006, n_alb: 9879.07194482119, n_bot: 9290.619067072392, t_bot: 45.29732633375782}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.003107506336842769, n_alb: 9887.225500274235, n_bot: 9525.772373184183, t_bot: 45.29691251203059}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.0031075061528243113, n_alb: 9886.806693838334, n_bot: 9526.48056943634, t_bot: 45.296911158691394}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.10484077075520078, n_constant: 7695.741566244432}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.09896996383975416, n_constant: 9710.825825155893}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.09896964202300773, n_constant: 9727.668604122839}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.13073921241164274, n_alb: 8598.321831687083, n_bot: 3654.306093989804, t_bot: 69.97219964364734}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.12552994675907123, n_alb: 11092.191355247372, n_bot: 3916.0102298456386, t_bot: 70.01214589906316}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.10176189107427105, n_alb: 9869.002632592657, n_bot: 6584.255780707458, t_bot: 70.7334104338074}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.10155003905026688, n_alb: 10349.183553251585, n_bot: 6732.800796498945, t_bot: 70.76546739241552}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.09899627767133178, n_alb: 9872.178156887125, n_bot: 8599.136699299826, t_bot: 71.28149806684618}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.09898785783243141, n_alb: 9964.308694590867, n_bot: 8650.929277644054, t_bot: 71.29412920167071}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.09889554299366876, n_alb: 9857.286745402847, n_bot: 9174.628927123164, t_bot: 71.43481898914182}
+INFO:momi.demo_model:{it: 7, KLDivergence: Autograd ArrayBox with value 0.0988952950357758, n_alb: 9856.399939527764, n_bot: 9206.147156774963, t_bot: 71.43480884048097}
+INFO:momi.demo_model:{it: 8, KLDivergence: Autograd ArrayBox with value 0.09889529497933341, n_alb: 9856.650543439911, n_bot: 9206.180101886757, t_bot: 71.43480833082279}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.005140828499053886, n_constant: 10064.090632712367}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.005110178894551944, n_constant: 9876.5080283282}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005110176182382906, n_constant: 9874.738200316548}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.006782670188905339, n_alb: 10881.49070301508, n_bot: 7180.296517984788, t_bot: 76.28217085086119}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.005119331413957958, n_alb: 9993.157932420134, n_bot: 9290.66261594765, t_bot: 76.24584291069844}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005102071886900428, n_alb: 9866.580167038675, n_bot: 9408.503667503459, t_bot: 76.24425247266791}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.005101958401811359, n_alb: 9878.006908885132, n_bot: 9421.157861337531, t_bot: 76.24424752416849}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.005101580040936357, n_alb: 9876.530241451677, n_bot: 9495.793552427589, t_bot: 76.24391698747127}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.005101580031606116, n_alb: 9876.460795538283, n_bot: 9496.018235538759, t_bot: 76.2439105366198}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.15276392514659837, n_constant: 10881.630597626176}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15175066613973795, n_constant: 9887.142503212777}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15175058929168236, n_constant: 9878.80336676702}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.15185797335474208, n_alb: 10050.426063183804, n_bot: 4113.0731333165495, t_bot: 4.936696032184235}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15185104876763492, n_alb: 9965.672706425255, n_bot: 4212.235114093774, t_bot: 4.934842765304449}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15174404868347852, n_alb: 9947.375677314121, n_bot: 8355.910945325544, t_bot: 4.925329784859545}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.15174068226803833, n_alb: 9901.336691014934, n_bot: 7915.542346892927, t_bot: 4.869216018364038}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.15174003231422406, n_alb: 9918.644378227009, n_bot: 7424.396732995638, t_bot: 4.889918390031941}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.15174002133573236, n_alb: 9919.125814503794, n_bot: 7473.753296317351, t_bot: 4.886158208658881}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.006417703797480612, n_constant: 9495.982658350526}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006256545018470704, n_constant: 9931.703150127049}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006256463855880542, n_constant: 9922.00631703225}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.0062564638558606075, n_constant: 9922.001581985083}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.007056275221972305, n_alb: 10766.680696884456, n_bot: 12333.716446742726, t_bot: 87.81686855461041}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006540755209659234, n_alb: 10506.935745344574, n_bot: 9054.62058529565, t_bot: 87.81614911222138}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.00622593208393107, n_alb: 9956.896798386015, n_bot: 9420.574932317795, t_bot: 87.81447181336304}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.0062252713541201795, n_alb: 9929.350295465923, n_bot: 9405.535738985238, t_bot: 87.81447334154684}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.0062235155700353885, n_alb: 9925.011122890537, n_bot: 9252.05261294488, t_bot: 87.81458847323074}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.006223515440465839, n_alb: 9924.707776647107, n_bot: 9252.580467229445, t_bot: 87.81458896045379}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.18153628542919595, n_constant: 9579.850094099289}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.18153249434011942, n_constant: 9522.805534681665}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.18153249433998359, n_constant: 9522.794795378186}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.18126118396861454, n_alb: 9715.386062014413, n_bot: 7774.757591551009, t_bot: 23.869373187808833}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.18123630792771092, n_alb: 9638.84414388719, n_bot: 7287.198400634638, t_bot: 23.871059824948063}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.18121709833055097, n_alb: 9770.132238297061, n_bot: 6951.550296188314, t_bot: 24.067770972421407}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.18121677174278983, n_alb: 9773.620115952834, n_bot: 7013.312180371547, t_bot: 24.162507649844034}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.18121676523021846, n_alb: 9771.008794963114, n_bot: 7017.65355405478, t_bot: 24.16917664510946}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.00640360617717135, n_constant: 10023.361868372927}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.0063903808373683415, n_constant: 10148.914725870036}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006390380325026933, n_constant: 10148.1349451258}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.006444843706623735, n_alb: 9909.34980697038, n_bot: 9599.904716313938, t_bot: 26.276416367900218}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006385693958964712, n_alb: 10151.975338016407, n_bot: 10720.040799463039, t_bot: 26.277350161282126}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006385646232002995, n_alb: 10144.505477875688, n_bot: 10722.594540435648, t_bot: 26.27735142249417}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.006385241068965258, n_alb: 10147.12366788122, n_bot: 10958.417591954083, t_bot: 26.277997108250723}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.006385241039614051, n_alb: 10146.949895433063, n_bot: 10959.00643288448, t_bot: 26.277997065903914}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.18228420519789745, n_constant: 8707.10869194626}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.181220226396122, n_constant: 9625.570806666623}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.18122022638800594, n_constant: 9625.486573234151}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.20344334915630222, n_alb: 11408.00836732889, n_bot: 3419.91911711237, t_bot: 53.82909546111263}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.18330898275748306, n_alb: 11224.875759713228, n_bot: 10564.957594870748, t_bot: 53.556631397289436}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.18109706027021444, n_alb: 9727.975754880434, n_bot: 9356.07933051267, t_bot: 53.69782804046945}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.18088984699079522, n_alb: 9912.037881518887, n_bot: 8114.618063375871, t_bot: 53.680670526281105}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.18088414199852776, n_alb: 9892.573974441075, n_bot: 8270.313843703489, t_bot: 53.680639398515126}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.18088409563289745, n_alb: 9899.592064127197, n_bot: 8272.295059874634, t_bot: 53.68169450968987}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.18088409400662236, n_alb: 9898.50977075595, n_bot: 8274.20702584232, t_bot: 53.68172677043063}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.005791900488327656, n_constant: 9722.354631630695}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.005768221619263358, n_constant: 9888.285927996036}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005768219921237585, n_constant: 9886.884930569795}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.005976505055950869, n_alb: 9950.010782703546, n_bot: 15655.511348862743, t_bot: 29.239127910726108}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.0059572613593510395, n_alb: 9801.162732857976, n_bot: 14839.860235494869, t_bot: 29.23659708217506}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005773059334999269, n_alb: 9811.240574761603, n_bot: 9798.61845134115, t_bot: 29.23523063134607}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.005766361091001406, n_alb: 9868.560335099572, n_bot: 9281.867531157906, t_bot: 29.311821167629937}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.005765716771720531, n_alb: 9889.311573881369, n_bot: 9432.148803326092, t_bot: 29.338275423429273}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.005765713433227244, n_alb: 9887.361416802183, n_bot: 9432.430095751484, t_bot: 29.33827468360216}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.16541692053507914, n_constant: 12518.215810348462}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15762439042103443, n_constant: 9656.375161573469}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15761451568885945, n_constant: 9563.784696207782}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.15761451568753151, n_constant: 9563.750897194153}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.1657260773591897, n_alb: 7612.853703227047, n_bot: 1099.5762200810827, t_bot: 2.2949475227405505}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.1576007249661743, n_alb: 9536.997744553146, n_bot: 8277.62885438523, t_bot: 2.1104425472024544}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.1575988088666632, n_alb: 9577.86041884618, n_bot: 8273.359518756854, t_bot: 2.110448395115222}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.15748082558471574, n_alb: 9650.436572641976, n_bot: 2739.001474391853, t_bot: 2.126498484808972}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.15747847103876242, n_alb: 9690.25918018686, n_bot: 2502.565653655403, t_bot: 2.1298759885138527}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.15747671893906984, n_alb: 9717.300859583313, n_bot: 2589.1551719729564, t_bot: 2.121684327537224}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.1574767188484977, n_alb: 9717.012241192298, n_bot: 2589.192576093659, t_bot: 2.1216839908851806}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.0076012493437905525, n_constant: 8336.794197651525}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.0051085496629685555, n_constant: 10122.736986148426}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005084756506945088, n_constant: 9956.392498898538}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.005084754873646588, n_constant: 9955.010648398531}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.02481208287348331, n_alb: 12457.668333417963, n_bot: 619.6900182082526, t_bot: 8.927744872801016}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.010852175332397358, n_alb: 9551.921559707494, n_bot: 987.8832003410556, t_bot: 8.16632195946236}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005861518544285644, n_alb: 10913.754701555112, n_bot: 29313.195792071252, t_bot: 5.732096933834538}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.005134115661861578, n_alb: 10002.017973602546, n_bot: 34515.434211577674, t_bot: 5.639985919936443}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.005132544094114741, n_alb: 9959.192461149389, n_bot: 34509.184685220265, t_bot: 5.639940958943746}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.0050834593629340286, n_alb: 9902.27828716743, n_bot: 7939.399063710381, t_bot: 5.28407739008548}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.0050809953249771, n_alb: 9956.003703599637, n_bot: 7939.198592626877, t_bot: 5.284077956073712}
+INFO:momi.demo_model:{it: 7, KLDivergence: Autograd ArrayBox with value 0.005080995101559481, n_alb: 9955.492840337776, n_bot: 7938.55462235264, t_bot: 5.284079840672318}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.15325229120173078, n_constant: 9786.60691783272}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15324743956238485, n_constant: 9852.525325052307}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15324743956185927, n_constant: 9852.503545023483}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.19850060905957195, n_alb: 7978.561662656726, n_bot: 1942.190676804769, t_bot: 30.179648261211696}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.19088048451163617, n_alb: 10766.263626930671, n_bot: 1926.2919755451048, t_bot: 30.193689930501865}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.1578911772448634, n_alb: 9542.578128128209, n_bot: 92607.44096327147, t_bot: 32.4925441395708}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.15784690071951085, n_alb: 9337.964207314135, n_bot: 92652.19112070628, t_bot: 32.49013499841545}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.15358878056477895, n_alb: 9311.069425265187, n_bot: 9925.826772900864, t_bot: 30.79697627135519}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.15349468511080658, n_alb: 9462.770118678987, n_bot: 8371.877350996203, t_bot: 30.67017674471607}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.15321254774246906, n_alb: 9952.817293859862, n_bot: 8805.239692818433, t_bot: 29.804904239135844}
+INFO:momi.demo_model:{it: 7, KLDivergence: Autograd ArrayBox with value 0.1532111637858549, n_alb: 9934.582340524981, n_bot: 8957.697749270937, t_bot: 29.83595619108639}
+INFO:momi.demo_model:{it: 8, KLDivergence: Autograd ArrayBox with value 0.15321116269753285, n_alb: 9935.631109701397, n_bot: 8957.928552526668, t_bot: 29.835956729285417}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.006599320936178915, n_constant: 10447.161571930594}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006332828270958987, n_constant: 9896.717582079431}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.0063326328794738335, n_constant: 9881.697856645396}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.006332632879361705, n_constant: 9881.68645077779}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.006350561832174165, n_alb: 10096.23052073826, n_bot: 11053.495485029523, t_bot: 76.65850053796622}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.00632571467295982, n_alb: 9990.843655601991, n_bot: 10307.0010066594, t_bot: 76.65853458943052}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006307874841206809, n_alb: 9881.992406282867, n_bot: 10593.301526640249, t_bot: 76.65889274467571}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.006307868072318137, n_alb: 9879.251652019831, n_bot: 10592.856980712653, t_bot: 76.6588940040496}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.1582082624191733, n_constant: 7741.800523471441}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15214204175116444, n_constant: 9806.139995382291}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15214181001977997, n_constant: 9820.54289855804}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.1602895480927055, n_alb: 10709.323557180498, n_bot: 35935.4127184293, t_bot: 51.548152998932586}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15248627839773946, n_alb: 10424.113889913371, n_bot: 10139.050187215651, t_bot: 51.464562142505024}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.1523216556338319, n_alb: 10214.326243743471, n_bot: 9074.587657244407, t_bot: 51.47311901857938}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.15214213899742132, n_alb: 9831.390093636233, n_bot: 9750.54273913823, t_bot: 51.4707396605079}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.15214200405259676, n_alb: 9819.50788764608, n_bot: 9762.622225447742, t_bot: 51.47073939994501}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.15214178171352813, n_alb: 9822.966065704764, n_bot: 9804.883374259474, t_bot: 51.47062758367195}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.15214178171022857, n_alb: 9822.916593241785, n_bot: 9805.001101099226, t_bot: 51.4706275696718}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.006376655810283871, n_constant: 10283.356152659064}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006181293985139646, n_constant: 9814.480946903463}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006181187530966941, n_constant: 9803.4612978674}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.006181187530932862, n_constant: 9803.45510887936}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.011441824683766295, n_alb: 9251.218600492924, n_bot: 3501.9793749124046, t_bot: 43.260673952745755}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006786412086884928, n_alb: 10649.954317255835, n_bot: 11304.996145021547, t_bot: 43.20649588185026}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006196956375186736, n_alb: 9838.71492304037, n_bot: 10587.114487649424, t_bot: 43.22153801708756}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.006195370213315343, n_alb: 9796.25810545955, n_bot: 10526.66771757824, t_bot: 43.221528569439506}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.006181196572672012, n_alb: 9802.287758968941, n_bot: 9646.736078642529, t_bot: 43.22141998422855}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.006181038241166826, n_alb: 9803.666668761647, n_bot: 9725.401622179152, t_bot: 43.21460106607168}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.006181038237358941, n_alb: 9803.61439272018, n_bot: 9725.59220500267, t_bot: 43.21459895501884}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.15817971581285808, n_constant: 9373.707533023091}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15809125375809643, n_constant: 9647.728148537344}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.1580912536905445, n_constant: 9647.485529513542}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.16079528824942854, n_alb: 11630.904909949852, n_bot: 9580.593679947833, t_bot: 69.57247540412756}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.16036267533263815, n_alb: 11408.584656377649, n_bot: 8227.307237236904, t_bot: 69.57213788185358}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.1580365574878309, n_alb: 9874.58606888769, n_bot: 9195.837627443789, t_bot: 69.53938232101436}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.15802605150696986, n_alb: 9766.897447375564, n_bot: 9183.671929232538, t_bot: 69.53938520162501}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.15802579483017212, n_alb: 9768.45783284605, n_bot: 9150.791603151132, t_bot: 69.53940338318176}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.15802579475999853, n_alb: 9768.178850997432, n_bot: 9150.808145975454, t_bot: 69.53940233972673}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.005460689929215866, n_constant: 9496.387787937727}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.005248178748483099, n_constant: 10000.23415117766}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005248036634194948, n_constant: 9987.331462768083}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.005248036634134688, n_constant: 9987.32313419222}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.005763090108100843, n_alb: 10793.424389068463, n_bot: 8591.602298588296, t_bot: 4.261539710160487}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.005239550999057345, n_alb: 10018.114714672467, n_bot: 8310.578089680166, t_bot: 4.232799463568222}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005238867737967355, n_alb: 9989.828094659624, n_bot: 8308.274130614867, t_bot: 4.232805048775166}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.005226259357213213, n_alb: 9989.201625239733, n_bot: 5447.575398235972, t_bot: 4.241129588802208}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.005226259032415978, n_alb: 9988.59249010934, n_bot: 5445.917702594752, t_bot: 4.241139911173012}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.16348948625438392, n_constant: 9481.295494617294}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.16344096430745875, n_constant: 9685.552423665265}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.16344096428597943, n_constant: 9685.415194781006}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.19120708381302903, n_alb: 12451.711420356953, n_bot: 40637.99073626626, t_bot: 80.0364977963898}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.16676506533446278, n_alb: 12109.305490057295, n_bot: 8918.238232479713, t_bot: 79.91330991174512}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.16329630570349282, n_alb: 10086.276567129315, n_bot: 9364.634417653157, t_bot: 79.85661789135085}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.16321773223095828, n_alb: 10034.075666046532, n_bot: 8844.601585760525, t_bot: 79.85519002841104}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.16320602164972883, n_alb: 9919.00084832628, n_bot: 8861.996045185488, t_bot: 79.8551871370674}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.163205607461607, n_alb: 9921.411354075373, n_bot: 8896.56602649556, t_bot: 79.8551509801544}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.16320560734535547, n_alb: 9921.049668028812, n_bot: 8896.626289580858, t_bot: 79.85515373956973}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.005487510053491469, n_constant: 10016.542890244356}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.0054861497519323255, n_constant: 9976.725221801446}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005486149746538387, n_constant: 9976.6458778373}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.07185921884766651, n_alb: 3587.4086701110637, n_bot: 8837.123710592066, t_bot: 19.89590007921092}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.0059486581309689795, n_alb: 9282.927613467878, n_bot: 7815.9007029446775, t_bot: 19.877768232995226}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.0055349956237404465, n_alb: 9985.484760710222, n_bot: 7832.252763889681, t_bot: 19.87772324992086}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.00548891363559868, n_alb: 9993.39799032754, n_bot: 9511.709970804584, t_bot: 19.872069860066794}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.005488502883370091, n_alb: 9971.597600868896, n_bot: 9516.56860867871, t_bot: 19.872065853533936}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.005485987006949653, n_alb: 9976.264075197074, n_bot: 10100.725890702912, t_bot: 19.87134594704275}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.005485985819730101, n_alb: 9975.151988842801, n_bot: 10104.50142326528, t_bot: 19.87134896503217}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.16244585411152976, n_constant: 8086.949726038998}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15874537296229685, n_constant: 9736.356548880061}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15874533392642529, n_constant: 9742.239734251136}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.16101732160146878, n_alb: 8396.025448914532, n_bot: 11853.34412105953, t_bot: 29.902937275996145}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.1594004727672297, n_alb: 9317.622268168008, n_bot: 6767.3331428890115, t_bot: 29.8339837686541}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15866904879065122, n_alb: 9766.623122641517, n_bot: 8324.387183785004, t_bot: 29.776930705625563}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.1586573883206727, n_alb: 9878.826183662815, n_bot: 8268.71036357938, t_bot: 29.77578420964392}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.15865699239031852, n_alb: 9896.168210615311, n_bot: 8294.18891623171, t_bot: 29.77574851629842}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.15865554907332738, n_alb: 9874.125128212378, n_bot: 8425.241146188275, t_bot: 29.713971988235222}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.1586555484179383, n_alb: 9874.507035344534, n_bot: 8427.631591540674, t_bot: 29.71399933294841}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.013486338153235574, n_constant: 12985.204056612145}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006267979889370871, n_constant: 10161.014251893519}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006156960558572733, n_constant: 9806.870555585081}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.00615692562863705, n_constant: 9800.555187849004}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.006171605496271462, n_alb: 9943.785760200459, n_bot: 9451.20777684336, t_bot: 4.329499498152951}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006152793113588253, n_alb: 9797.579754698023, n_bot: 9158.504065856981, t_bot: 4.3296204545857755}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006152731354817131, n_alb: 9805.979522138405, n_bot: 9154.19048487006, t_bot: 4.329624116815492}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.006129060251654926, n_alb: 9804.496653078795, n_bot: 5018.676671061782, t_bot: 4.333290484847494}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.006129006532862616, n_alb: 9803.689515885677, n_bot: 5111.399083254422, t_bot: 4.315799754834305}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.006128994217169858, n_alb: 9799.96662554348, n_bot: 5082.650505145517, t_bot: 4.258752569841798}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.1629015240629579, n_constant: 10066.107576823711}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.16248380098828022, n_constant: 9456.08008463967}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.16248379693020532, n_constant: 9454.230598449998}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.2039835997974562, n_alb: 6131.896832477255, n_bot: 1857.0771492400756, t_bot: 17.928748688163473}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.16727908242235456, n_alb: 7730.921406227224, n_bot: 130358.7137859014, t_bot: 16.90368462815902}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.16451678370911282, n_alb: 9145.083788611832, n_bot: 123527.66514504566, t_bot: 16.563290273042377}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.16451516054353385, n_alb: 9108.182329271955, n_bot: 123165.16695885135, t_bot: 16.55845801520193}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.16241662353055622, n_alb: 9279.842179193638, n_bot: 6574.548370474121, t_bot: 12.091405576512823}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.16240637382462897, n_alb: 9298.879970702788, n_bot: 7057.1255729841605, t_bot: 11.957051285761636}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.16228718318146132, n_alb: 9651.51632808429, n_bot: 5995.270816219177, t_bot: 12.308812104739744}
+INFO:momi.demo_model:{it: 7, KLDivergence: Autograd ArrayBox with value 0.1622866835283473, n_alb: 9644.209301592991, n_bot: 6094.020048094473, t_bot: 12.269445043014857}
+INFO:momi.demo_model:{it: 8, KLDivergence: Autograd ArrayBox with value 0.16228667958551912, n_alb: 9642.285280426637, n_bot: 6094.061889341255, t_bot: 12.269430613833798}
+INFO:momi.data.sfs:Reading json...
+INFO:momi.data.sfs:Finished reading json...
+INFO:momi.data.sfs:Constructing configs...
+INFO:momi.data.sfs:8090 unique configs detected
+INFO:momi.data.sfs:Converted to numpy array...
+INFO:momi.data.sfs:Finished constructing configs
+INFO:momi.data.sfs:Constructing SFS...
+INFO:momi.data.sfs:Finished constructing SFS
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.002713678996318485, n_constant: 10512.86915189681}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.0025643945958405134, n_constant: 10095.57048359979}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.002564333315446792, n_constant: 10087.064759829671}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.0025643333154350073, n_constant: 10087.06117625251}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.0026068152267578895, n_alb: 10170.282611358694, n_bot: 6670.562236723, t_bot: 12.63306771007992}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.0025993670053793463, n_alb: 10076.750360721851, n_bot: 6681.568873784155, t_bot: 12.632988497587755}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.0025647659833632134, n_alb: 10086.22995453492, n_bot: 8332.835913765059, t_bot: 12.62247760318945}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.0025645981226051807, n_alb: 10072.716329712328, n_bot: 8376.24163650945, t_bot: 12.622369750998018}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.0025620325080823584, n_alb: 10087.55301115867, n_bot: 9070.440380420672, t_bot: 12.588568999447498}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.0025619968776818755, n_alb: 10087.567247573174, n_bot: 9177.107023328132, t_bot: 12.662630522730975}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.0025619968686838458, n_alb: 10087.670169616586, n_bot: 9177.080508326308, t_bot: 12.662631422845246}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.10104565275028549, n_constant: 12550.015782713128}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.09653285839905192, n_constant: 10320.686102331048}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.09652886797448329, n_constant: 10258.626523404184}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.09652886797354837, n_constant: 10258.596563560162}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.09802924030948565, n_alb: 10664.261290576793, n_bot: 3891.416790229805, t_bot: 10.846546310217757}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.09658403407850023, n_alb: 9905.641159386767, n_bot: 18407.27088954347, t_bot: 10.666632622374664}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.09651632493686338, n_alb: 10169.732817666263, n_bot: 17122.588723192977, t_bot: 10.668576600783531}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.09651611934786106, n_alb: 10155.552796344045, n_bot: 17113.7940437799, t_bot: 10.668527093484826}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.09650370475845525, n_alb: 10194.127332093045, n_bot: 13189.651956571588, t_bot: 10.561107961344968}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.09650357196120217, n_alb: 10194.301572576936, n_bot: 13462.995318189005, t_bot: 10.557709991195823}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.09650355779655553, n_alb: 10197.917040429651, n_bot: 13433.602418469209, t_bot: 10.654276956027644}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.007218577464946906, n_constant: 10189.667087973718}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.007217661582292387, n_constant: 10156.69059946784}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.00721766157988724, n_constant: 10156.637130226665}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.01921897974310475, n_alb: 9520.235881124274, n_bot: 3442.9008704640614, t_bot: 97.02619322945469}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.009871352418895451, n_alb: 10905.60479716757, n_bot: 6031.653721871769, t_bot: 97.01570908372858}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.007600854010953869, n_alb: 9752.634645035507, n_bot: 7437.109758442396, t_bot: 97.01387192353747}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.007193634308224089, n_alb: 10239.637619777573, n_bot: 8821.42479638674, t_bot: 97.01452547880805}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.007161715539355163, n_alb: 10147.000095612051, n_bot: 9242.765569214647, t_bot: 97.01500758839205}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.007161644859128389, n_alb: 10156.084889080841, n_bot: 9246.531656389016, t_bot: 97.0150088247261}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.007161496909702179, n_alb: 10157.870045187767, n_bot: 9288.802631422468, t_bot: 97.01555492972342}
+INFO:momi.demo_model:{it: 7, KLDivergence: Autograd ArrayBox with value 0.007161496907074497, n_alb: 10157.823817894314, n_bot: 9288.861865719908, t_bot: 97.01556047685325}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.16380701804298492, n_constant: 10412.771106083228}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.16377933800713254, n_constant: 10248.586197843975}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.1637793379587698, n_constant: 10248.370526976685}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.1646908950898226, n_alb: 10615.014324333037, n_bot: 7040.536917663277, t_bot: 34.21035094473626}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.1638525333645787, n_alb: 10290.914085754894, n_bot: 9133.40159638491, t_bot: 34.196296807918344}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.163805509124571, n_alb: 10389.418736781863, n_bot: 9804.493695695439, t_bot: 34.19573053833818}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.16377932551646296, n_alb: 10235.420139581709, n_bot: 10257.613281591071, t_bot: 34.18663708909247}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.1637789839801504, n_alb: 10240.369912478756, n_bot: 10338.729649918509, t_bot: 34.20137633036961}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.1637789839747557, n_alb: 10240.29133041566, n_bot: 10338.797513520653, t_bot: 34.20137633459141}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.005656627078697375, n_constant: 10169.370334510386}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.005649859932300999, n_constant: 10080.099756895243}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005649859800785738, n_constant: 10079.705646938315}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.013232413085335676, n_alb: 13116.714368592377, n_bot: 6998.805801598051, t_bot: 51.073454430235465}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.009324507076294185, n_alb: 9674.320761705036, n_bot: 296589.0192260233, t_bot: 51.05118631594829}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.008575013251952665, n_alb: 10646.359357086314, n_bot: 137806.46187570822, t_bot: 50.900542493480586}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.00624322340061123, n_alb: 10936.367062922753, n_bot: 11416.663249498019, t_bot: 50.493511225015595}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.006206454318139446, n_alb: 10895.939505379883, n_bot: 9882.246561711127, t_bot: 50.470143559712746}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.005650781240954437, n_alb: 10103.381425019435, n_bot: 9962.98473940161, t_bot: 50.47130664291123}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.005650138612216006, n_alb: 10076.328849275676, n_bot: 9966.916228760534, t_bot: 50.47130690201362}
+INFO:momi.demo_model:{it: 7, KLDivergence: Autograd ArrayBox with value 0.0056498582557949545, n_alb: 10079.716760390991, n_bot: 10070.617258810526, t_bot: 50.47138245737759}
+INFO:momi.demo_model:{it: 8, KLDivergence: Autograd ArrayBox with value 0.005649858251538828, n_alb: 10079.64981986335, n_bot: 10070.688022499216, t_bot: 50.47138250304594}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.18530190730520799, n_constant: 6369.397049297289}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.16409951961268263, n_constant: 9781.170688760485}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.1640772613961921, n_constant: 9922.731004950789}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.1640772613844587, n_constant: 9922.62757539218}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.17837929594120042, n_alb: 6909.8958793743395, n_bot: 6808.293916674618, t_bot: 52.519051785968706}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.17551907545952378, n_alb: 7000.383609276236, n_bot: 14556.41632403246, t_bot: 52.51832537563749}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.16412229788365088, n_alb: 10228.427111046556, n_bot: 9912.326223955619, t_bot: 52.45734252683084}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.16406315864201576, n_alb: 10185.980879439068, n_bot: 9190.754026391769, t_bot: 52.45778165392841}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.1640361101745786, n_alb: 10017.590695200015, n_bot: 9366.313179119777, t_bot: 52.45892556481887}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.16403610606010585, n_alb: 10015.492275940058, n_bot: 9365.680625036526, t_bot: 52.458927749948714}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.0059378834071282735, n_constant: 9694.514376579338}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.005841684765142785, n_constant: 10033.26203673375}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.00584165639279907, n_constant: 10027.480671391037}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.018177794815943664, n_alb: 8790.054811526694, n_bot: 1081.401769270287, t_bot: 13.378052392937212}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.010216144781666893, n_alb: 10765.659999962534, n_bot: 1859.341497254613, t_bot: 12.963015931824392}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.007385829010371772, n_alb: 9632.365298875573, n_bot: 2806.4608487037644, t_bot: 12.493188872467622}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.00651339042723224, n_alb: 10342.723493146523, n_bot: 3973.748672728786, t_bot: 12.436048089832543}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.005985301978853592, n_alb: 9965.245770868094, n_bot: 5926.809083214061, t_bot: 12.21926193288402}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.005980994746907689, n_alb: 10036.60962960953, n_bot: 5958.998786727959, t_bot: 12.218963930068748}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.005840994493210719, n_alb: 10003.117456386171, n_bot: 12918.778535108258, t_bot: 12.188684396056475}
+INFO:momi.demo_model:{it: 7, KLDivergence: Autograd ArrayBox with value 0.005838624569475223, n_alb: 10044.513403912537, n_bot: 11933.911023096467, t_bot: 12.074691219042412}
+INFO:momi.demo_model:{it: 8, KLDivergence: Autograd ArrayBox with value 0.005838117424123854, n_alb: 10028.680736883716, n_bot: 11388.393076506503, t_bot: 12.10841743905116}
+INFO:momi.demo_model:{it: 9, KLDivergence: Autograd ArrayBox with value 0.005838113806657458, n_alb: 10026.618162533072, n_bot: 11388.54429443244, t_bot: 12.108417448269376}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.15644682414153246, n_constant: 8476.016353319681}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15179251186896214, n_constant: 10420.553581375589}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15179245104162686, n_constant: 10412.83601555531}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.1736845849992544, n_alb: 9325.715696224532, n_bot: 5466.769443671706, t_bot: 99.29828837109127}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.16894075683289003, n_alb: 11725.249430888813, n_bot: 6206.643278808544, t_bot: 99.29959507963562}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.1528101928350598, n_alb: 9913.03277533743, n_bot: 9236.917334784082, t_bot: 99.30879546180526}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.15239428411405684, n_alb: 10561.431431538133, n_bot: 9747.824065799046, t_bot: 99.31002757524438}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.1515276649313801, n_alb: 10139.184989154033, n_bot: 11084.630734203081, t_bot: 99.31404373771696}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.15151685255747308, n_alb: 10175.181554068366, n_bot: 11295.12182650022, t_bot: 99.31404448840975}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.15151671543642736, n_alb: 10163.183789400948, n_bot: 11300.610088573409, t_bot: 99.31406274843798}
+INFO:momi.demo_model:{it: 7, KLDivergence: Autograd ArrayBox with value 0.15151671317645954, n_alb: 10164.188324290688, n_bot: 11303.35021304498, t_bot: 99.31406302843492}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.0053405985803239315, n_constant: 10521.560823778884}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.005246158590658384, n_constant: 10187.577985416518}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005246133989412201, n_constant: 10182.160978173102}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.02340098126217611, n_alb: 8765.232595176518, n_bot: 222.3857179016636, t_bot: 3.4583363937568627}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.010506297516059596, n_alb: 10853.38193597187, n_bot: 375.650023080038, t_bot: 2.95744773047552}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006468752939318099, n_alb: 9092.955580456819, n_bot: 1182.2433905565372, t_bot: 2.509040515022722}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.005256148994539127, n_alb: 10282.525098719694, n_bot: 1605.9836475285613, t_bot: 2.536332093622818}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.005247821524563101, n_alb: 10182.961585031953, n_bot: 1608.8519402530694, t_bot: 2.5362077598006585}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.005183378229674365, n_alb: 10189.489711835322, n_bot: 3216.869162924477, t_bot: 2.4899035669401304}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.0051833590084657205, n_alb: 10184.70042984546, n_bot: 3216.297192523518, t_bot: 2.4899141239255065}
+INFO:momi.demo_model:{it: 7, KLDivergence: Autograd ArrayBox with value 0.005181361581841333, n_alb: 10185.208870876857, n_bot: 2828.956885327757, t_bot: 2.496661411174911}
+INFO:momi.demo_model:{it: 8, KLDivergence: Autograd ArrayBox with value 0.005181361528283352, n_alb: 10185.461649509303, n_bot: 2828.902996599221, t_bot: 2.4966635334435843}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.15639979369240067, n_constant: 9354.62033095644}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.1551910122473161, n_constant: 10396.824878001133}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15519097941762755, n_constant: 10391.147455728502}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.15692532570854423, n_alb: 10348.35572644021, n_bot: 16817.987745484705, t_bot: 61.04935822026907}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15517710732920376, n_alb: 10291.471409500886, n_bot: 10587.992093007078, t_bot: 61.03890226400773}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15517433262460978, n_alb: 10345.947470645022, n_bot: 10623.587978298157, t_bot: 61.03890728262774}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.1551714501416709, n_alb: 10328.62316325721, n_bot: 10780.007076748328, t_bot: 61.0403168967822}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.15517144940870728, n_alb: 10328.552426227074, n_bot: 10782.643330259549, t_bot: 61.0403322334201}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.010874033746646123, n_constant: 12669.70230780152}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006366560424920099, n_constant: 10390.421264786668}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006321581494617229, n_constant: 10159.536123288779}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.006321575804640805, n_constant: 10156.930093710853}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.00929378149012883, n_alb: 12152.64967938718, n_bot: 13494.363546003606, t_bot: 59.15003053635033}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006419176598599575, n_alb: 10339.302402546546, n_bot: 9200.30074159811, t_bot: 59.107177746065595}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.0063226976518071945, n_alb: 10220.516938869021, n_bot: 10441.255082114845, t_bot: 59.10012305427078}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.006319173851953338, n_alb: 10156.869891110451, n_bot: 10443.230088282238, t_bot: 59.100122727695116}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.006319173131604917, n_alb: 10155.960712951832, n_bot: 10441.366160515954, t_bot: 59.10011975274322}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.15426356461326257, n_constant: 8878.461084412087}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15105005323285106, n_constant: 10543.090882819055}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.151049932495478, n_constant: 10532.105021805815}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.15858563429344621, n_alb: 7989.57540216606, n_bot: 10911.254088936708, t_bot: 14.86488202100826}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15123295682543655, n_alb: 9720.352744090878, n_bot: 29216.796197278505, t_bot: 14.990048659689295}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15088396971507653, n_alb: 10295.583836441012, n_bot: 31140.891466872356, t_bot: 15.015309956926783}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.1508838123801197, n_alb: 10308.414955645605, n_bot: 31088.48205810847, t_bot: 15.01486653352635}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.15085122722886588, n_alb: 10352.52833121114, n_bot: 20464.817932141596, t_bot: 14.689683184734728}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.15085106272189774, n_alb: 10362.716140723662, n_bot: 19761.69483473755, t_bot: 14.875553536163997}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.15085087230076158, n_alb: 10372.763537706676, n_bot: 19740.721436330186, t_bot: 15.13384028491915}
+INFO:momi.demo_model:{it: 7, KLDivergence: Autograd ArrayBox with value 0.15084663767159162, n_alb: 10369.14354576705, n_bot: 15795.958203343665, t_bot: 19.741288680069108}
+INFO:momi.demo_model:{it: 8, KLDivergence: Autograd ArrayBox with value 0.15084658487976085, n_alb: 10363.29319386598, n_bot: 15801.0948790339, t_bot: 19.74133744493216}
+INFO:momi.demo_model:{it: 9, KLDivergence: Autograd ArrayBox with value 0.15084441771643892, n_alb: 10359.490410748824, n_bot: 14289.001622576361, t_bot: 23.845986626141052}
+INFO:momi.demo_model:{it: 10, KLDivergence: Autograd ArrayBox with value 0.15084439667997077, n_alb: 10364.225591009212, n_bot: 14274.203975127357, t_bot: 23.891503613143616}
+INFO:momi.demo_model:{it: 11, KLDivergence: Autograd ArrayBox with value 0.15082457186865422, n_alb: 10317.770469788371, n_bot: 12450.577532710327, t_bot: 42.50347814742996}
+INFO:momi.demo_model:{it: 12, KLDivergence: Autograd ArrayBox with value 0.15082397109533616, n_alb: 10342.217886399812, n_bot: 12383.902418073942, t_bot: 43.329570696475386}
+INFO:momi.demo_model:{it: 13, KLDivergence: Autograd ArrayBox with value 0.15080842345809536, n_alb: 10318.281324465177, n_bot: 12443.9850887475, t_bot: 58.72833529593278}
+INFO:momi.demo_model:{it: 14, KLDivergence: Autograd ArrayBox with value 0.15080833515440872, n_alb: 10308.114540891873, n_bot: 12444.205617542108, t_bot: 58.787411822859426}
+INFO:momi.demo_model:{it: 15, KLDivergence: Autograd ArrayBox with value 0.1508002321015552, n_alb: 10307.905619555951, n_bot: 11947.692610447451, t_bot: 62.94077819602257}
+INFO:momi.demo_model:{it: 16, KLDivergence: Autograd ArrayBox with value 0.15080022301366802, n_alb: 10311.157322634712, n_bot: 11946.897755948456, t_bot: 62.947534294802765}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.0051448334386442465, n_constant: 9963.219058849803}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.0051245499091026195, n_constant: 10118.389537315741}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.00512454869826786, n_constant: 10117.193854169082}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.005410855242201648, n_alb: 9887.46135161108, n_bot: 4655.637231827833, t_bot: 15.196976358099052}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.005143303437579157, n_alb: 10087.637719112941, n_bot: 6537.612289018381, t_bot: 15.171341694731478}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005142186048979452, n_alb: 10123.991065461552, n_bot: 6557.396295886502, t_bot: 15.171200904190854}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.005111100097315911, n_alb: 10117.11419517887, n_bot: 7855.48900475346, t_bot: 15.165270780156517}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.005109500300686932, n_alb: 10118.565450008198, n_bot: 8298.381283527548, t_bot: 15.253240654545422}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.005109497048841995, n_alb: 10119.681918414622, n_bot: 8316.906743372814, t_bot: 15.253489971837258}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.14919126179610856, n_constant: 12658.176711666385}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.14430617789796246, n_constant: 10331.24387725831}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.14430128774328196, n_constant: 10262.457469834731}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.14430128774185297, n_constant: 10262.420377738059}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.14878578723188238, n_alb: 10198.968082035411, n_bot: 6960.772684879493, t_bot: 79.53837288975726}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.1446528280367629, n_alb: 9935.514570339476, n_bot: 9320.503500790048, t_bot: 79.53380223967022}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.14430914339530934, n_alb: 10306.40758467725, n_bot: 10228.564177169948, t_bot: 79.54121455002081}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.144297678357434, n_alb: 10195.768435106113, n_bot: 10295.28803990049, t_bot: 79.54121252731308}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.1442924441183174, n_alb: 10219.135489698445, n_bot: 10449.69499925192, t_bot: 79.5416003085766}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.14429244320801587, n_alb: 10218.241262578718, n_bot: 10450.75991386542, t_bot: 79.54160270542401}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.005895505692312358, n_constant: 9581.76356567178}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.005760112795739577, n_constant: 9981.870505554874}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005760056118121474, n_constant: 9973.745834234229}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.0057600561181118766, n_constant: 9973.742527452881}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.006368623795197844, n_alb: 9555.292156358955, n_bot: 6988.709594716604, t_bot: 53.80493659341206}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.005888058074098742, n_alb: 9620.24258987512, n_bot: 9110.726849414335, t_bot: 53.8032502522475}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005759109885445917, n_alb: 9957.33699518404, n_bot: 10260.391636787224, t_bot: 53.803798443463336}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.00575880705363271, n_alb: 9975.736771702124, n_bot: 10257.44966730385, t_bot: 53.80379787962466}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.005758679883226086, n_alb: 9973.265234512817, n_bot: 10188.659335171913, t_bot: 53.803530394078216}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.005758679882291433, n_alb: 9973.234366154062, n_bot: 10188.693299020968, t_bot: 53.80352988879517}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.15058168692567636, n_constant: 9247.135324847979}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.1493384651466907, n_constant: 10291.95006862698}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.14933843827873636, n_constant: 10286.865480814695}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.1628090893480898, n_alb: 8865.999495065758, n_bot: 5930.999241369293, t_bot: 88.39889666590888}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15050373428259414, n_alb: 9406.175332247769, n_bot: 9093.326501380572, t_bot: 88.3808152775445}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.14925212019992126, n_alb: 10154.629904024347, n_bot: 10627.09701236619, t_bot: 88.31902574290906}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.1492413382322782, n_alb: 10095.137514207332, n_bot: 10807.435968875676, t_bot: 88.31904816105495}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.14923888016187287, n_alb: 10139.982206954985, n_bot: 10872.202313602671, t_bot: 88.32897715448375}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.1492388791494164, n_alb: 10138.987597477413, n_bot: 10872.976559585128, t_bot: 88.32898321003668}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.006107116189664357, n_constant: 10290.328720663538}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006091877678709756, n_constant: 10155.951700775246}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006091877022434264, n_constant: 10155.06798915261}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.008961614591294206, n_alb: 8457.169052403637, n_bot: 6532.487908514616, t_bot: 27.044261099653895}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006108318123141566, n_alb: 10285.911278268948, n_bot: 10029.024924184221, t_bot: 27.129345172833}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006092325341211932, n_alb: 10149.52443388115, n_bot: 10089.298410968982, t_bot: 27.121246429841463}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.006092053975428495, n_alb: 10166.613798240362, n_bot: 10156.571332092233, t_bot: 27.121244825573775}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.006090736748900331, n_alb: 10154.460720906985, n_bot: 10505.941272851844, t_bot: 27.12117860432365}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.0060907365447597644, n_alb: 10154.94602179546, n_bot: 10507.291026253286, t_bot: 27.12117263968794}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.1627361030354712, n_constant: 10308.330461736607}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.16273609856530957, n_constant: 10306.248859467258}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.17707858435851112, n_alb: 11223.156973553238, n_bot: 3491.30197614818, t_bot: 33.802624765168}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.16401511242479197, n_alb: 9110.311525590138, n_bot: 10751.953632679575, t_bot: 33.616699676061984}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.1627022202411847, n_alb: 10258.460819168587, n_bot: 10881.225896623568, t_bot: 33.59405670304408}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.1627008598394164, n_alb: 10219.145307008024, n_bot: 10922.186437671007, t_bot: 33.59407758880157}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.16269312137318623, n_alb: 10219.173068138261, n_bot: 11393.813058898646, t_bot: 33.594214986047746}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.16269310803170645, n_alb: 10221.047526530141, n_bot: 11410.386399625324, t_bot: 33.59428980437676}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.006175969550370354, n_constant: 9728.82398172458}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006083122301610378, n_constant: 10061.21408389796}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006083096090447736, n_constant: 10055.663228163534}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.026892643881842156, n_alb: 5955.313561513076, n_bot: 8166.194859688987, t_bot: 88.62609832534615}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.006807434222493679, n_alb: 10040.650026630337, n_bot: 15287.146249374548, t_bot: 88.87152284769952}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.006101539577965107, n_alb: 10069.143763805101, n_bot: 10974.60215331793, t_bot: 88.88854637171598}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.00609689416908235, n_alb: 10131.924966989907, n_bot: 10874.96377418998, t_bot: 88.88852835582574}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.006079490910197833, n_alb: 10054.623618049784, n_bot: 10274.474749587345, t_bot: 88.87866483507648}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.006079442040074275, n_alb: 10055.071410975195, n_bot: 10304.119978506349, t_bot: 88.87429724479674}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.006079442039840481, n_alb: 10055.055199141863, n_bot: 10304.117636523617, t_bot: 88.87429613774042}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.1542998602507369, n_constant: 8756.171553619391}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15132489225473084, n_constant: 10335.418633891022}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15132482913689177, n_constant: 10327.591253532119}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.15827236575867035, n_alb: 11381.75922422992, n_bot: 5789.53738266265, t_bot: 48.90987575643688}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15206217476743683, n_alb: 10321.775454969698, n_bot: 8654.777799154686, t_bot: 48.878977023241}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15120948241819426, n_alb: 10175.508175695173, n_bot: 10926.106103071828, t_bot: 48.9091112271765}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.1511625510374329, n_alb: 10234.506558588575, n_bot: 11691.219725454932, t_bot: 48.90924261477533}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.15115473727407416, n_alb: 10143.895879519994, n_bot: 11848.008627565949, t_bot: 48.912222475855444}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.15115449019986613, n_alb: 10148.054607754508, n_bot: 11912.985205902727, t_bot: 48.926346454788}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.15115449018697794, n_alb: 10147.936041448116, n_bot: 11912.953409005484, t_bot: 48.92634954473529}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.005102426878778472, n_constant: 10341.119639162895}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.005068510518875056, n_constant: 10140.917752070169}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005068507282076485, n_constant: 10138.955931080276}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.016738612788325107, n_alb: 12045.517717792762, n_bot: 3977.1921323452, t_bot: 72.31497722833738}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.009252532658857551, n_alb: 12520.37442726996, n_bot: 13881.908300928617, t_bot: 72.29046994196993}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.005203641779058814, n_alb: 10364.32706907768, n_bot: 11904.790137752982, t_bot: 72.32943849650539}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.005090539168788022, n_alb: 10304.233003378667, n_bot: 10200.769081872097, t_bot: 72.33006257836394}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.005067947116375986, n_alb: 10141.387384438665, n_bot: 9984.25736108464, t_bot: 72.33351146552593}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.005067926237544289, n_alb: 10136.67032727823, n_bot: 9986.6638161739, t_bot: 72.33351207967942}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.005067871799333163, n_alb: 10139.258952760765, n_bot: 10021.218953889043, t_bot: 72.33659426749914}
+INFO:momi.demo_model:{it: 7, KLDivergence: Autograd ArrayBox with value 0.0050678717992294915, n_alb: 10139.24921930818, n_bot: 10021.23253032832, t_bot: 72.33659561524809}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.15351029447057093, n_constant: 9818.782608320767}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15332443563838388, n_constant: 10233.25755835455}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15332443449407696, n_constant: 10232.211368779432}
+INFO:momi.demo_model:Constructing likelihood surface...
+INFO:momi.demo_model:Finished constructing likelihood surface
+INFO:momi.demo_model:{it: 0, KLDivergence: Autograd ArrayBox with value 0.15847216122045701, n_alb: 8208.0972757008, n_bot: 21203.705671455384, t_bot: 41.76558332054102}
+INFO:momi.demo_model:{it: 1, KLDivergence: Autograd ArrayBox with value 0.15483903779058047, n_alb: 9050.734886986143, n_bot: 9459.409398519896, t_bot: 41.685295810566025}
+INFO:momi.demo_model:{it: 2, KLDivergence: Autograd ArrayBox with value 0.15342139101196564, n_alb: 9978.018382477421, n_bot: 11585.51820515418, t_bot: 41.6132499892676}
+INFO:momi.demo_model:{it: 3, KLDivergence: Autograd ArrayBox with value 0.1533242926669168, n_alb: 10217.829639706184, n_bot: 10233.882354927568, t_bot: 41.599160481846326}
+INFO:momi.demo_model:{it: 4, KLDivergence: Autograd ArrayBox with value 0.15332340042447593, n_alb: 10237.802398768517, n_bot: 10312.796273700358, t_bot: 41.59916133819665}
+INFO:momi.demo_model:{it: 5, KLDivergence: Autograd ArrayBox with value 0.15332251064274155, n_alb: 10212.956730242982, n_bot: 10403.83465861607, t_bot: 41.60449583771235}
+INFO:momi.demo_model:{it: 6, KLDivergence: Autograd ArrayBox with value 0.15332251060407023, n_alb: 10213.154513197776, n_bot: 10403.975032178334, t_bot: 41.60449663703935}

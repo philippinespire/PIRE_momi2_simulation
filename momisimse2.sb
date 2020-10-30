@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH --nodes 2
+#SBATCH --ntasks-per-node 1
+#SBATCH --exclusive
+#SBATCH --time 1:00:00
+#SBATCH --mem-per-cpu 1000
+#SBATCH --job-name momisims_e4
+#SBATCH --output momisims1_e4.txt
+
+conda activate momi-env
+
+python3 momi_stable_e2_parallel.py
