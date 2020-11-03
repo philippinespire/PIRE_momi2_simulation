@@ -49,7 +49,6 @@ def run_sim(simrep):
 				length=bases_per_locus,
 				chrom_name=f"chr{chrom}",
 				ploidy=ploidy,
-				random_seed=1234+chrom,
 				sampled_n_dict=sampled_n_dict,
 				force=True)
 
@@ -234,57 +233,58 @@ def run_sim(simrep):
 	#write estimates and model characteristics
 	estimate=simdir+"/estimates.csv"
 	f = open(estimate,"a")
-	f.write("Model,Data,Nh,Nc,T,lnL,AIC"+"\n")
-	f.write("Constant,Contemporary,"+str(cn)+","+str(cn)+",NA,"+str(lik1)+","+str(AIC1)+"\n")
-	f.write("Change,Contemporary,"+str(cnh)+","+str(cnc)+","+str(ct)+","+str(lik2)+","+str(AIC2)+"\n")
-	f.write("Constant,Temporal,"+str(tn)+","+str(tn)+",NA,"+str(lik3)+","+str(AIC3)+"\n")
-	f.write("Change,Temporal,"+str(tnh)+","+str(tnc)+","+str(tt)+","+str(lik4)+","+str(AIC4))
+	f.write("Model,Data,NeConstant,Nh,Nc,T,lnL,AIC"+"\n")
+	f.write("Constant,Contemporary,"+str(NeConstant)+","+str(cn)+","+str(cn)+",NA,"+str(lik1)+","+str(AIC1)+"\n")
+	f.write("Change,Contemporary,"+str(NeConstant)+","+str(cnh)+","+str(cnc)+","+str(ct)+","+str(lik2)+","+str(AIC2)+"\n")
+	f.write("Constant,Temporal,"+str(NeConstant)+","+str(tn)+","+str(tn)+",NA,"+str(lik3)+","+str(AIC3)+"\n")
+	f.write("Change,Temporal,"+str(NeConstant)+","+str(tnh)+","+str(tnc)+","+str(tt)+","+str(lik4)+","+str(AIC4)+"\n")
 	f.close()
 
 
 	#write bootstrap results
 	boot=simdir+"/bootstraps.csv"
 	f = open(boot,"a")
-	f.write("Model,Data,Param,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10"+"\n")
-	f.write("Constant,Contemporary,Nconstant")
+	f.write("Model,Data,Param,NeConstant,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10"+"\n")
+	f.write("Constant,Contemporary,Nconstant"+str(NeConstant))
 	for i in range(len(bootstrap_cons_cont)):
 		f.write(',')
 		f.write(str(bootstrap_cons_cont[i].get('n_constant')))
 	f.write('\n')
-	f.write("Change,Contemporary,Nhistoric")
+	f.write("Change,Contemporary,Nhistoric"+str(NeConstant))
 	for i in range(len(bootstrap_change_cont)):
 		f.write(',')
 		f.write(str(bootstrap_change_cont[i].get('n_alb')))
 	f.write('\n')
-	f.write("Change,Contemporary,Ncontemporary")
+	f.write("Change,Contemporary,Ncontemporary"+str(NeConstant))
 	for i in range(len(bootstrap_change_cont)):
 		f.write(',')
 		f.write(str(bootstrap_change_cont[i].get('n_bot')))
 	f.write('\n')
-	f.write("Change,Contemporary,Tbottleneck")
+	f.write("Change,Contemporary,Tbottleneck"+str(NeConstant))
 	for i in range(len(bootstrap_change_cont)):
 		f.write(',')
 		f.write(str(bootstrap_change_cont[i].get('t_bot')))
 	f.write('\n')
-	f.write("Constant,Temporal,Nconstant")
+	f.write("Constant,Temporal,Nconstant"+str(NeConstant))
 	for i in range(len(bootstrap_cons_temp)):
 		f.write(',')
 		f.write(str(bootstrap_cons_temp[i].get('n_constant')))
 	f.write('\n')
-	f.write("Change,Temporal,Nhistoric")
+	f.write("Change,Temporal,Nhistoric"+str(NeConstant))
 	for i in range(len(bootstrap_change_temp)):
 		f.write(',')
 		f.write(str(bootstrap_change_temp[i].get('n_alb')))
 	f.write('\n')
-	f.write("Change,Temporal,Ncontemporary")
+	f.write("Change,Temporal,Ncontemporary"+str(NeConstant))
 	for i in range(len(bootstrap_change_temp)):
 		f.write(',')
 		f.write(str(bootstrap_change_temp[i].get('n_bot')))
 	f.write('\n')
-	f.write("Change,Temporal,Tbottleneck")
+	f.write("Change,Temporal,Tbottleneck"+str(NeConstant))
 	for i in range(len(bootstrap_change_temp)):
 		f.write(',')
 		f.write(str(bootstrap_change_temp[i].get('t_bot')))
+	f.write('\n')
 	f.close()
 
 a_pool = multiprocessing.Pool()

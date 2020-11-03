@@ -8,7 +8,7 @@ import subprocess
 NeAlb=1e3
 NeBot=1e1
 tdecline=60
-gt=1
+gt=3
 
 def run_sim(simrep):
 	#define model
@@ -52,7 +52,6 @@ def run_sim(simrep):
 				length=bases_per_locus,
 				chrom_name=f"chr{chrom}",
 				ploidy=ploidy,
-				random_seed=1234+chrom,
 				sampled_n_dict=sampled_n_dict,
 				force=True)
 
@@ -81,7 +80,7 @@ def run_sim(simrep):
 	sfs = momi.Sfs.load(sfsfile)
 
 	#set model for inference - constant pop size, contemporary samples only!
-	model_inf_constant_contemp =  momi.DemographicModel(N_e=NeAlb, gen_time=1, muts_per_gen=4.5e-8)
+	model_inf_constant_contemp =  momi.DemographicModel(N_e=NeAlb, gen_time=gt, muts_per_gen=4.5e-8)
 
 	#add data to model
 	model_inf_constant_contemp.set_data(sfs)
@@ -96,7 +95,7 @@ def run_sim(simrep):
 	model_inf_constant_contemp.optimize(method="TNC")
 
 	#set model for inference - contemporary samples, 2 different pop sizes assumed!
-	model_inf_change_contemp =  momi.DemographicModel(N_e=NeAlb, gen_time=1, muts_per_gen=4.5e-8)
+	model_inf_change_contemp =  momi.DemographicModel(N_e=NeAlb, gen_time=gt, muts_per_gen=4.5e-8)
 
 	#add data to model
 	model_inf_change_contemp.set_data(sfs)
@@ -115,7 +114,7 @@ def run_sim(simrep):
 	model_inf_change_contemp.optimize(method="TNC")
 
 	#set model for inference - albatross +contemporary samples, constant pop size assumed!
-	model_inf_constant_temporal =  momi.DemographicModel(N_e=NeAlb, gen_time=1, muts_per_gen=4.5e-8)
+	model_inf_constant_temporal =  momi.DemographicModel(N_e=NeAlb, gen_time=gt, muts_per_gen=4.5e-8)
 
 	#add data to model
 	model_inf_constant_temporal.set_data(sfs)
@@ -133,7 +132,7 @@ def run_sim(simrep):
 
 
 	#set model for inference - albatross + contemporary samples, 2 different pop sizes assumed!
-	model_inf_change_temporal =  momi.DemographicModel(N_e=NeAlb, gen_time=1, muts_per_gen=4.5e-8)
+	model_inf_change_temporal =  momi.DemographicModel(N_e=NeAlb, gen_time=gt, muts_per_gen=4.5e-8)
 
 	#add data to model
 	model_inf_change_temporal.set_data(sfs)
@@ -237,57 +236,58 @@ def run_sim(simrep):
 	#write estimates and model characteristics
 	estimate=simdir+"/estimates.csv"
 	f = open(estimate,"a")
-	f.write("Model,Data,Nh,Nc,T,lnL,AIC"+"\n")
-	f.write("Constant,Contemporary,"+str(cn)+","+str(cn)+",NA,"+str(lik1)+","+str(AIC1)+"\n")
-	f.write("Change,Contemporary,"+str(cnh)+","+str(cnc)+","+str(ct)+","+str(lik2)+","+str(AIC2)+"\n")
-	f.write("Constant,Temporal,"+str(tn)+","+str(tn)+",NA,"+str(lik3)+","+str(AIC3)+"\n")
-	f.write("Change,Temporal,"+str(tnh)+","+str(tnc)+","+str(tt)+","+str(lik4)+","+str(AIC4))
+	f.write("Model,Data,TrueNh,TrueNc,TrueT,EstNh,EstNc,EstT,lnL,AIC"+"\n")
+	f.write("Constant,Contemporary,"+str(NeAlb)+","+str(NeBot)+","+str(tdecline)+","+str(cn)+","+str(cn)+",NA,"+str(lik1)+","+str(AIC1)+"\n")
+	f.write("Change,Contemporary,"+str(NeAlb)+","+str(NeBot)+","+str(tdecline)+","+str(cnh)+","+str(cnc)+","+str(ct)+","+str(lik2)+","+str(AIC2)+"\n")
+	f.write("Constant,Temporal,"+str(NeAlb)+","+str(NeBot)+","+str(tdecline)+","+str(tn)+","+str(tn)+",NA,"+str(lik3)+","+str(AIC3)+"\n")
+	f.write("Change,Temporal,"+str(NeAlb)+","+str(NeBot)+","+str(tdecline)+","+str(tnh)+","+str(tnc)+","+str(tt)+","+str(lik4)+","+str(AIC4)+"\n")
 	f.close()
 
 
 	#write bootstrap results
 	boot=simdir+"/bootstraps.csv"
 	f = open(boot,"a")
-	f.write("Model,Data,Param,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10"+"\n")
-	f.write("Constant,Contemporary,Nconstant")
+	f.write("Model,Data,TrueNh,TrueNc,TrueT,Param,b1,b2,b3,b4,b5,b6,b7,b8,b9,b10"+"\n")
+	f.write("Constant,Contemporary,Nconstant,"+str(NeAlb)+","+str(NeBot)+","+str(tdecline))
 	for i in range(len(bootstrap_cons_cont)):
 		f.write(',')
 		f.write(str(bootstrap_cons_cont[i].get('n_constant')))
 	f.write('\n')
-	f.write("Change,Contemporary,Nhistoric")
+	f.write("Change,Contemporary,Nhistoric,"+str(NeAlb)+","+str(NeBot)+","+str(tdecline))
 	for i in range(len(bootstrap_change_cont)):
 		f.write(',')
 		f.write(str(bootstrap_change_cont[i].get('n_alb')))
 	f.write('\n')
-	f.write("Change,Contemporary,Ncontemporary")
+	f.write("Change,Contemporary,Ncontemporary,"+str(NeAlb)+","+str(NeBot)+","+str(tdecline))
 	for i in range(len(bootstrap_change_cont)):
 		f.write(',')
 		f.write(str(bootstrap_change_cont[i].get('n_bot')))
 	f.write('\n')
-	f.write("Change,Contemporary,Tbottleneck")
+	f.write("Change,Contemporary,Tbottleneck,"+str(NeAlb)+","+str(NeBot)+","+str(tdecline))
 	for i in range(len(bootstrap_change_cont)):
 		f.write(',')
 		f.write(str(bootstrap_change_cont[i].get('t_bot')))
 	f.write('\n')
-	f.write("Constant,Temporal,Nconstant")
+	f.write("Constant,Temporal,Nconstant,"+str(NeAlb)+","+str(NeBot)+","+str(tdecline))
 	for i in range(len(bootstrap_cons_temp)):
 		f.write(',')
 		f.write(str(bootstrap_cons_temp[i].get('n_constant')))
 	f.write('\n')
-	f.write("Change,Temporal,Nhistoric")
+	f.write("Change,Temporal,Nhistoric,"+str(NeAlb)+","+str(NeBot)+","+str(tdecline))
 	for i in range(len(bootstrap_change_temp)):
 		f.write(',')
 		f.write(str(bootstrap_change_temp[i].get('n_alb')))
 	f.write('\n')
-	f.write("Change,Temporal,Ncontemporary")
+	f.write("Change,Temporal,Ncontemporary,"+str(NeAlb)+","+str(NeBot)+","+str(tdecline))
 	for i in range(len(bootstrap_change_temp)):
 		f.write(',')
 		f.write(str(bootstrap_change_temp[i].get('n_bot')))
 	f.write('\n')
-	f.write("Change,Temporal,Tbottleneck")
+	f.write("Change,Temporal,Tbottleneck,"+str(NeAlb)+","+str(NeBot)+","+str(tdecline))
 	for i in range(len(bootstrap_change_temp)):
 		f.write(',')
 		f.write(str(bootstrap_change_temp[i].get('t_bot')))
+	f.write('\n')
 	f.close()
 
 a_pool = multiprocessing.Pool()
